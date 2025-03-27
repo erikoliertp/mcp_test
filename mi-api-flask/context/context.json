@@ -1,0 +1,15 @@
+{
+  "project_name": "API de Usuarios",
+  "description": "Una API RESTful simple para gestionar usuarios usando Flask.",
+  "entry_points": ["app.py"],
+  "goals": [
+    "Agregar autenticación JWT",
+    "Agregar paginación a la lista de usuarios"
+  ],
+  "important_files": [
+    "app.py",
+    "routes/users.py",
+    "models/user.py"
+  ],
+  "context_version": "v1"
+}
